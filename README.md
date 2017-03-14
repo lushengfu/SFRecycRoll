@@ -1,0 +1,2 @@
+# SFRecycRoll
+利用UICollectionView实现类似新闻类APP的循环滚动demo.优势主要是充分利用Cell的复用机制,很好的节省内存.
