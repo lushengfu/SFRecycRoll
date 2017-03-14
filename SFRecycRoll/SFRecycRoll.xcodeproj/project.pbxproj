@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A52CFE9F1E782D9C004FFE1D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A52CFE9E1E782D9C004FFE1D /* main.m */; };
+		A52CFEA21E782D9C004FFE1D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A52CFEA11E782D9C004FFE1D /* AppDelegate.m */; };
+		A52CFEA51E782D9C004FFE1D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A52CFEA41E782D9C004FFE1D /* ViewController.m */; };
+		A52CFEA81E782D9C004FFE1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A52CFEA61E782D9C004FFE1D /* Main.storyboard */; };
+		A52CFEAA1E782D9C004FFE1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A52CFEA91E782D9C004FFE1D /* Assets.xcassets */; };
+		A52CFEAD1E782D9C004FFE1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A52CFEAB1E782D9C004FFE1D /* LaunchScreen.storyboard */; };
+		A52CFEB81E782D9C004FFE1D /* SFRecycRollTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A52CFEB71E782D9C004FFE1D /* SFRecycRollTests.m */; };
+		A52CFEC31E782D9C004FFE1D /* SFRecycRollUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A52CFEC21E782D9C004FFE1D /* SFRecycRollUITests.m */; };
+		A52CFED21E782E85004FFE1D /* BaseCollectionFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A52CFED11E782E85004FFE1D /* BaseCollectionFlowLayout.m */; };
+		A52CFEFA1E783103004FFE1D /* newses.plist in Resources */ = {isa = PBXBuildFile; fileRef = A52CFEF91E783103004FFE1D /* newses.plist */; };
+		A52CFEFD1E78324A004FFE1D /* SFNewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A52CFEFC1E78324A004FFE1D /* SFNewModel.m */; };
+		A52CFF291E783548004FFE1D /* SFNewsCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A52CFF281E783548004FFE1D /* SFNewsCollectionViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A52CFEB41E782D9C004FFE1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A52CFE921E782D9C004FFE1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A52CFE991E782D9C004FFE1D;
+			remoteInfo = SFRecycRoll;
+		};
+		A52CFEBF1E782D9C004FFE1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A52CFE921E782D9C004FFE1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A52CFE991E782D9C004FFE1D;
+			remoteInfo = SFRecycRoll;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A52CFE9A1E782D9C004FFE1D /* SFRecycRoll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SFRecycRoll.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A52CFE9E1E782D9C004FFE1D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A52CFEA01E782D9C004FFE1D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A52CFEA11E782D9C004FFE1D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A52CFEA31E782D9C004FFE1D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A52CFEA41E782D9C004FFE1D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A52CFEA71E782D9C004FFE1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A52CFEA91E782D9C004FFE1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A52CFEAC1E782D9C004FFE1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A52CFEAE1E782D9C004FFE1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A52CFEB31E782D9C004FFE1D /* SFRecycRollTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SFRecycRollTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A52CFEB71E782D9C004FFE1D /* SFRecycRollTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFRecycRollTests.m; sourceTree = "<group>"; };
+		A52CFEB91E782D9C004FFE1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A52CFEBE1E782D9C004FFE1D /* SFRecycRollUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SFRecycRollUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A52CFEC21E782D9C004FFE1D /* SFRecycRollUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFRecycRollUITests.m; sourceTree = "<group>"; };
+		A52CFEC41E782D9C004FFE1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A52CFED01E782E85004FFE1D /* BaseCollectionFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCollectionFlowLayout.h; sourceTree = "<group>"; };
+		A52CFED11E782E85004FFE1D /* BaseCollectionFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCollectionFlowLayout.m; sourceTree = "<group>"; };
+		A52CFEF91E783103004FFE1D /* newses.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = newses.plist; sourceTree = "<group>"; };
+		A52CFEFB1E78324A004FFE1D /* SFNewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFNewModel.h; sourceTree = "<group>"; };
+		A52CFEFC1E78324A004FFE1D /* SFNewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFNewModel.m; sourceTree = "<group>"; };
+		A52CFF271E783548004FFE1D /* SFNewsCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFNewsCollectionViewCell.h; sourceTree = "<group>"; };
+		A52CFF281E783548004FFE1D /* SFNewsCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFNewsCollectionViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A52CFE971E782D9C004FFE1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A52CFEB01E782D9C004FFE1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A52CFEBB1E782D9C004FFE1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A52CFE911E782D9C004FFE1D = {
+			isa = PBXGroup;
+			children = (
+				A52CFE9C1E782D9C004FFE1D /* SFRecycRoll */,
+				A52CFEB61E782D9C004FFE1D /* SFRecycRollTests */,
+				A52CFEC11E782D9C004FFE1D /* SFRecycRollUITests */,
+				A52CFE9B1E782D9C004FFE1D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A52CFE9B1E782D9C004FFE1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A52CFE9A1E782D9C004FFE1D /* SFRecycRoll.app */,
+				A52CFEB31E782D9C004FFE1D /* SFRecycRollTests.xctest */,
+				A52CFEBE1E782D9C004FFE1D /* SFRecycRollUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A52CFE9C1E782D9C004FFE1D /* SFRecycRoll */ = {
+			isa = PBXGroup;
+			children = (
+				A52CFED01E782E85004FFE1D /* BaseCollectionFlowLayout.h */,
+				A52CFED11E782E85004FFE1D /* BaseCollectionFlowLayout.m */,
+				A52CFEFB1E78324A004FFE1D /* SFNewModel.h */,
+				A52CFEFC1E78324A004FFE1D /* SFNewModel.m */,
+				A52CFF271E783548004FFE1D /* SFNewsCollectionViewCell.h */,
+				A52CFF281E783548004FFE1D /* SFNewsCollectionViewCell.m */,
+				A52CFEA01E782D9C004FFE1D /* AppDelegate.h */,
+				A52CFEA11E782D9C004FFE1D /* AppDelegate.m */,
+				A52CFEA31E782D9C004FFE1D /* ViewController.h */,
+				A52CFEA41E782D9C004FFE1D /* ViewController.m */,
+				A52CFEA61E782D9C004FFE1D /* Main.storyboard */,
+				A52CFEA91E782D9C004FFE1D /* Assets.xcassets */,
+				A52CFEAB1E782D9C004FFE1D /* LaunchScreen.storyboard */,
+				A52CFEAE1E782D9C004FFE1D /* Info.plist */,
+				A52CFEF91E783103004FFE1D /* newses.plist */,
+				A52CFE9D1E782D9C004FFE1D /* Supporting Files */,
+			);
+			path = SFRecycRoll;
+			sourceTree = "<group>";
+		};
+		A52CFE9D1E782D9C004FFE1D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A52CFE9E1E782D9C004FFE1D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A52CFEB61E782D9C004FFE1D /* SFRecycRollTests */ = {
+			isa = PBXGroup;
+			children = (
+				A52CFEB71E782D9C004FFE1D /* SFRecycRollTests.m */,
+				A52CFEB91E782D9C004FFE1D /* Info.plist */,
+			);
+			path = SFRecycRollTests;
+			sourceTree = "<group>";
+		};
+		A52CFEC11E782D9C004FFE1D /* SFRecycRollUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A52CFEC21E782D9C004FFE1D /* SFRecycRollUITests.m */,
+				A52CFEC41E782D9C004FFE1D /* Info.plist */,
+			);
+			path = SFRecycRollUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A52CFE991E782D9C004FFE1D /* SFRecycRoll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A52CFEC71E782D9C004FFE1D /* Build configuration list for PBXNativeTarget "SFRecycRoll" */;
+			buildPhases = (
+				A52CFE961E782D9C004FFE1D /* Sources */,
+				A52CFE971E782D9C004FFE1D /* Frameworks */,
+				A52CFE981E782D9C004FFE1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SFRecycRoll;
+			productName = SFRecycRoll;
+			productReference = A52CFE9A1E782D9C004FFE1D /* SFRecycRoll.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A52CFEB21E782D9C004FFE1D /* SFRecycRollTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A52CFECA1E782D9C004FFE1D /* Build configuration list for PBXNativeTarget "SFRecycRollTests" */;
+			buildPhases = (
+				A52CFEAF1E782D9C004FFE1D /* Sources */,
+				A52CFEB01E782D9C004FFE1D /* Frameworks */,
+				A52CFEB11E782D9C004FFE1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A52CFEB51E782D9C004FFE1D /* PBXTargetDependency */,
+			);
+			name = SFRecycRollTests;
+			productName = SFRecycRollTests;
+			productReference = A52CFEB31E782D9C004FFE1D /* SFRecycRollTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A52CFEBD1E782D9C004FFE1D /* SFRecycRollUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A52CFECD1E782D9C004FFE1D /* Build configuration list for PBXNativeTarget "SFRecycRollUITests" */;
+			buildPhases = (
+				A52CFEBA1E782D9C004FFE1D /* Sources */,
+				A52CFEBB1E782D9C004FFE1D /* Frameworks */,
+				A52CFEBC1E782D9C004FFE1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A52CFEC01E782D9C004FFE1D /* PBXTargetDependency */,
+			);
+			name = SFRecycRollUITests;
+			productName = SFRecycRollUITests;
+			productReference = A52CFEBE1E782D9C004FFE1D /* SFRecycRollUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A52CFE921E782D9C004FFE1D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = CM;
+				TargetAttributes = {
+					A52CFE991E782D9C004FFE1D = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					A52CFEB21E782D9C004FFE1D = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A52CFE991E782D9C004FFE1D;
+					};
+					A52CFEBD1E782D9C004FFE1D = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A52CFE991E782D9C004FFE1D;
+					};
+				};
+			};
+			buildConfigurationList = A52CFE951E782D9C004FFE1D /* Build configuration list for PBXProject "SFRecycRoll" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A52CFE911E782D9C004FFE1D;
+			productRefGroup = A52CFE9B1E782D9C004FFE1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A52CFE991E782D9C004FFE1D /* SFRecycRoll */,
+				A52CFEB21E782D9C004FFE1D /* SFRecycRollTests */,
+				A52CFEBD1E782D9C004FFE1D /* SFRecycRollUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A52CFE981E782D9C004FFE1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A52CFEAD1E782D9C004FFE1D /* LaunchScreen.storyboard in Resources */,
+				A52CFEFA1E783103004FFE1D /* newses.plist in Resources */,
+				A52CFEAA1E782D9C004FFE1D /* Assets.xcassets in Resources */,
+				A52CFEA81E782D9C004FFE1D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A52CFEB11E782D9C004FFE1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A52CFEBC1E782D9C004FFE1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A52CFE961E782D9C004FFE1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A52CFEA51E782D9C004FFE1D /* ViewController.m in Sources */,
+				A52CFEA21E782D9C004FFE1D /* AppDelegate.m in Sources */,
+				A52CFF291E783548004FFE1D /* SFNewsCollectionViewCell.m in Sources */,
+				A52CFED21E782E85004FFE1D /* BaseCollectionFlowLayout.m in Sources */,
+				A52CFE9F1E782D9C004FFE1D /* main.m in Sources */,
+				A52CFEFD1E78324A004FFE1D /* SFNewModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A52CFEAF1E782D9C004FFE1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A52CFEB81E782D9C004FFE1D /* SFRecycRollTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A52CFEBA1E782D9C004FFE1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A52CFEC31E782D9C004FFE1D /* SFRecycRollUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A52CFEB51E782D9C004FFE1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A52CFE991E782D9C004FFE1D /* SFRecycRoll */;
+			targetProxy = A52CFEB41E782D9C004FFE1D /* PBXContainerItemProxy */;
+		};
+		A52CFEC01E782D9C004FFE1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A52CFE991E782D9C004FFE1D /* SFRecycRoll */;
+			targetProxy = A52CFEBF1E782D9C004FFE1D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A52CFEA61E782D9C004FFE1D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A52CFEA71E782D9C004FFE1D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A52CFEAB1E782D9C004FFE1D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A52CFEAC1E782D9C004FFE1D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A52CFEC51E782D9C004FFE1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A52CFEC61E782D9C004FFE1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A52CFEC81E782D9C004FFE1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SFRecycRoll/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chongmi.SFRecycRoll;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A52CFEC91E782D9C004FFE1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SFRecycRoll/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chongmi.SFRecycRoll;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A52CFECB1E782D9C004FFE1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SFRecycRollTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chongmi.SFRecycRollTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SFRecycRoll.app/SFRecycRoll";
+			};
+			name = Debug;
+		};
+		A52CFECC1E782D9C004FFE1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SFRecycRollTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chongmi.SFRecycRollTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SFRecycRoll.app/SFRecycRoll";
+			};
+			name = Release;
+		};
+		A52CFECE1E782D9C004FFE1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SFRecycRollUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chongmi.SFRecycRollUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SFRecycRoll;
+			};
+			name = Debug;
+		};
+		A52CFECF1E782D9C004FFE1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SFRecycRollUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chongmi.SFRecycRollUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SFRecycRoll;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A52CFE951E782D9C004FFE1D /* Build configuration list for PBXProject "SFRecycRoll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A52CFEC51E782D9C004FFE1D /* Debug */,
+				A52CFEC61E782D9C004FFE1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A52CFEC71E782D9C004FFE1D /* Build configuration list for PBXNativeTarget "SFRecycRoll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A52CFEC81E782D9C004FFE1D /* Debug */,
+				A52CFEC91E782D9C004FFE1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A52CFECA1E782D9C004FFE1D /* Build configuration list for PBXNativeTarget "SFRecycRollTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A52CFECB1E782D9C004FFE1D /* Debug */,
+				A52CFECC1E782D9C004FFE1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A52CFECD1E782D9C004FFE1D /* Build configuration list for PBXNativeTarget "SFRecycRollUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A52CFECE1E782D9C004FFE1D /* Debug */,
+				A52CFECF1E782D9C004FFE1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A52CFE921E782D9C004FFE1D /* Project object */;
+}
